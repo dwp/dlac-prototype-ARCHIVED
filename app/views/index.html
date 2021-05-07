@@ -10,35 +10,60 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
       <h1 class="govuk-heading-xl">
-        The GOV.UK Prototype Kit - Hello!
-        <span class="govuk-caption-xl">{{releaseVersion}}</span>
-      </h1>{{releaseVersion | log }}
+        Disability Living Allowance (DLA) for children
+      </h1>
       <p>
-        This kit lets you rapidly create HTML prototypes of GOV.UK services.
+        Please find <b>Disability Living Allowance (DLA) for children</b> prototype versions currently under test and refinement.
       </p>
 
-      <p>
-        It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.
+      <p> For any questions, please contact <a href="mailto:david.doherty@engineering.digital.dwp.gov.uk">David Doherty</a>.
       </p>
 
-      <h2 class="govuk-heading-m">About this page</h2>
+      <div class="govuk-!-padding-bottom-1"></div>
 
-      <p>We recommend you add links to your prototype to this page, rather than delete it.
-        You'll find this page in the kit at '/app/views/index.html'.</p>
+      <!DOCTYPE html>
+      <style>
+                              .flamingo {max-width: 15%}
+                              .flamingo {max-height: auto}
+        </style>
+      <center>
+        <img src="/public/images/flamingo.png" class="flamingo" alt="team flamingo logo">
+      </center>
+      </html>
 
-      <p>You can change the service name by editing the file '/app/config.js'.</p>
+      <div class="govuk-!-padding-bottom-3"></div>
 
-      <h2 class="govuk-heading-m">Examples and documentation</h2>
+      <div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+        <div class="govuk-accordion__section ">
+          <div class="govuk-accordion__section-header">
+            <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+          Prototypes for Developers
+        </span>
+            </h2>
+          </div>
+          <div id="accordion-default-content-1" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-1">
+            <p class='govuk-body'>tbc</p>
+          </div>
+        </div>
+        <div class="govuk-accordion__section ">
+          <div class="govuk-accordion__section-header">
+            <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-2">
+          Prototypes for Design Team
+        </span>
+            </h2>
+          </div>
+          <div id="accordion-default-content-2" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-2">
+            <p class='govuk-body'>tbc</p>
+          </div>
+        </div>
 
-      <ul class="govuk-list govuk-list--bullet">
-        <li>
-          <a href="/docs/tutorials-and-examples">Example pages and documentation</a>
-        </li>
-        <li>
-          <a href="https://design-system.service.gov.uk">GOV.UK Design System</a>
-        </li>
-      </ul>
+
+
+
     </div>
   </div>
+
 
 {% endblock %}
